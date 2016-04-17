@@ -1,0 +1,7 @@
+._*
+.DS*
+
+/web
+/cache
+/vendor
+/modules

@@ -1,0 +1,7 @@
+{
+    "id": "locale",
+    "name": "Locale",
+    "description": "Locale Utility",
+    "version": "0.1.0",
+    "dependencies": []
+}
