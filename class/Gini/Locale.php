@@ -37,7 +37,7 @@ namespace {
     } else {
         function Y($number, $format = '%.2n', $symbol = null) {
             $symbol = $symbol ?: \Gini\Locale::$info['currency_symbol'];
-            return sprintf('%s %.2f', $symbol, $number);
+            return sprintf('%s '.$format, $symbol, $number);
         }
     }
 
