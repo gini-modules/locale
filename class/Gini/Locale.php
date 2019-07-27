@@ -35,7 +35,7 @@ namespace {
     if (function_exists('Y')) {
         die('Y() was declared by other libraries, which may cause problems!');
     } else {
-        function Y($number, $format = '%.2n', $symbol = null) {
+        function Y($number, $format = '%.2f', $symbol = null) {
             $symbol = $symbol ?: \Gini\Locale::$info['currency_symbol'];
             return sprintf('%s '.$format, $symbol, $number);
         }
